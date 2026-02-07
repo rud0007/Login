@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+
+    <title>Login Page</title>
+
+    <style>
+        /* @media screen and (width:717.3px),screen and (orientation: landscape) {
+            body{
+                background-color: rgb(255, 140, 0);
+            }
+        }
+        @media (orientation: landscape) {
+            body{
+                color:#7bdcb5;
+                background-image: url(rud.jpg);
+                
+            } */
+
+        /* @media not all and (orientation: landscape)    {
+            body{
+                color: #910000;
+            }
+        } */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            background: linear-gradient(to right, #7bdcb5, #3ab7a8);
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login-box {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 8px 20px rgba(249, 10, 10, 0.811);
+          
+        }
+
+        .login-box h2 {
+            color: #138f82;
+            margin-bottom: 30px;
+        }
+
+        .login-box input {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #910000;
+            border-radius: 5px;
+            font-size: 15px;
+        }
+
+       
+        input[type="submit"]{
+            width: 140px;
+            padding: 12px;
+            background-color: #0a8f80;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+      
+
+        .links {
+            margin-top: 25px;
+            font-size: 14px;
+        }
+
+        .links a {
+            color: #0a8f80;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="login-box">
+        <h2>Login</h2>
+
+    
+        <form action="#" method="post">
+
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="password" placeholder="Password" required>
+
+             <div>
+                <br>
+                <br>
+             </div>
+          
+             <input type="submit" value="SIGN IN">
+
+        </form>
+     
+
+        <div class="links">
+            <p>Forgot <a href="forget.html">Username / Password?</a></p>
+            <p>Don't have an account? <a href="signup.html">Sign up</a></p>
+        </div>
+    </div>
+
+</body>
+</html>
